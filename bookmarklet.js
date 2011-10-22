@@ -1,6 +1,7 @@
 (function() {
 
-    var POST_URL = 'http://localhost:8080/translate/typo/index'
+    // var POST_URL = 'http://localhost:8080/translate/typo/index'
+    var POST_URL = 'http://translate.cloudfoundry.com/typo/'
 
     function x(element, map, events) {
         var result = typeof(element)=='string'?document.createElement(element):element
